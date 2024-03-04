@@ -24,3 +24,7 @@ Route::get('/dashPresi', function(){
 Route::get('/asesudiante', function(){
     return view('modulo4');
 });
+
+Route::get('/modulo7', function(){
+    return view('modulo7');
+});
