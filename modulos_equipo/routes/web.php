@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/cartas', function () {
+    $minimized = false; // Puedes definir el estado inicial aquí según tu lógica
+    return view('cartas', compact('minimized'));
+})->name('cartas');
