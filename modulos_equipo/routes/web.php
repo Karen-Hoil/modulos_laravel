@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/dashPresi', function(){
     return view('dashPresi');
 });
@@ -28,3 +29,8 @@ Route::get('/asesudiante', function(){
 Route::get('/modulo7', function(){
     return view('modulo7');
 });
+
+Route::get('/cartas', function () {
+    $minimized = false; // Puedes definir el estado inicial aquí según tu lógica
+    return view('cartas', compact('minimized'));
+})->name('cartas');
