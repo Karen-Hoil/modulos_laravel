@@ -31,9 +31,9 @@
                                 <button class="form-icon-button" onclick="document.execCommand('underline', false, null)">A</button>
                                 <button class="form-icon-button">Clip</button>
                                 <button style="background-color: #325B87; color: white" class="form-button rounded px-4 py-2">Guardar como borrador</button>
-                                <button class="form-icon-button">🗑️</button>
+                                <button style="background-color: #0D476D; color: white" class="form-button rounded px-4 py-2">Eliminar</button>
+                                <button type="submit" style="background-color: #325B87; color: white" class="submit-button text-white px-4 py-2 rounded ml-auto">Enviar</button>
                             </div>
-                            <button type="submit" style="background-color: #325B87; color: white" class="submit-button text-white px-4 py-2 rounded ml-auto">Enviar</button>
                         </div>
                     </form>
                 </div>
