@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo 7</title>
+    @extends ('plantilla2')
+    @section ('titulo2')
+    Modulo 7
+    @endSection
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .header-nav a:hover {
@@ -23,25 +26,11 @@
         }
     </style>
 </head>
+@section ('contenido2')
 <body class="flex flex-col min-h-screen bg-gray-100">
-<header>
-    <nav class="flex justify-between items-center bg-blue-800 text-white p-4 header-nav">
-        <div>
-            <img src="../img/UT.png" alt="logo-ut" class="h-12">
-        </div>
-        <ul class="flex space-x-4">
-            <li><a href="#gestion">Gestión de estadias</a></li>
-            <li><a href="#proyecto">Proyecto</a></li>
-            <li><a href="#calendario">Calendario</a></li>
-            <li><a href="#documentos">Documentos</a></li>
-        </ul>
-        <div>
-            <img src="../img/user.png" alt="User" class="h-12">
-        </div>
-    </nav>
-</header>
+
 <div class="flex-grow">
-    <div class="border-t-4 border-black text-center p-5">
+    
         <h1 class="text-2xl">Información del proyecto</h1>
     </div>
     <div class="flex justify-evenly items-start p-6">
@@ -76,6 +65,7 @@
             </div>
         </div>
     </div>
+    @endSection
 </div>
 </body>
 </html>

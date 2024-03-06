@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Control de cartas</title>
+    @extends ('plantilla1')
+    @section ('titulo1')
+    Cartas
+    @endSection
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
+    @section ('contenido1')
     <div class="flex flex-col">
-        <div style="background: linear-gradient(to right, #63D8CC, #325b87)" class="text-left relative">
+        <div  class="text-left relative">
             <div class="p-6">
                 <div class="flex items-center justify-between">
                     <div>
@@ -20,7 +24,7 @@
         </div>
 
         <!-- Contenedor especial con sidebar y formulario -->
-        <div style="background-color: #A7EDE5" class="flex">
+        <div  class="flex">
             <script>
                 // Función para alternar el estado del formulario entre minimizado y expandido
                 function toggleMinimize() {
@@ -36,5 +40,6 @@
 
         </div>
     </div>
+    @endSection
 </body>
 </html>

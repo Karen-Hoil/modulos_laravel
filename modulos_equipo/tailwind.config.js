@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'azul-paleta': '#0D476D',
+      },
+    },
   },
-  plugins: [],
+  // Otras configuraciones...
 }
 

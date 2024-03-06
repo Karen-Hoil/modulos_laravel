@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo6</title>
-    <!-- Agrega la CDN de Tailwind CSS -->
+    @extends ('plantilla2')
+    @section ('titulo2')
+    Modulo 6
+    @endSection
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- HeaderPresi component -->
-    <header>
-        <!-- Inserta el contenido del componente HeaderPresi aquí -->
-    </header>
     
+    @section ('contenido2')
     <div class="text-zinc-400 border-b border-zinc-400 px-5 py-3 text-xl mx-5">
         Bienvenido (Presidente)!
     </div>
@@ -57,5 +56,6 @@
             </div>
         </div>
     </div>
+    @endSection
 </body>
 </html>
