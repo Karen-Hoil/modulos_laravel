@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="flex flex-col">
-        <div style="background: linear-gradient(to right, #63D8CC, #325b87)" class="text-left relative">
+        <div  class="text-left relative">
             <div class="p-6">
                 <div class="flex items-center justify-between">
                     <div>
@@ -20,7 +20,7 @@
         </div>
 
         <!-- Contenedor especial con sidebar y formulario -->
-        <div style="background-color: #A7EDE5" class="flex">
+        <div style="background-color: #FFFFFF" class="flex">
             <script>
                 // Función para alternar el estado del formulario entre minimizado y expandido
                 function toggleMinimize() {
