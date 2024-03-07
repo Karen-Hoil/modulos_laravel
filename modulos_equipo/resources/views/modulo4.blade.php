@@ -30,8 +30,6 @@
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-        </div>
-        <div class="flex flex-wrap justify-center">
           <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
@@ -54,8 +52,6 @@
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-        </div>
-        <div class="flex flex-wrap justify-center">
           <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
