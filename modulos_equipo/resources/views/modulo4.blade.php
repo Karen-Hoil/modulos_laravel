@@ -18,46 +18,46 @@
       <div class="titulo">
         <h1 class="px-10 py-3 text-3xl font-bold">Control de alumnos asesorados</h1>
       </div>
-      <div class="container mt-10">
+      <div class="mt-10 justify-center">
         <div class="flex flex-wrap justify-center">
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
         </div>
         <div class="flex flex-wrap justify-center">
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
           </div>
-          <div class="container__items border rounded-lg shadow-md p-4 mx-10 my-5 max-w-md">
+          <div class="border rounded-lg shadow-lg py-5 px-10 my-2 mx-5">
             <h6 class="text-xl text-center text-blue-600">Estudiante #</h6>
             <p>Proyecto:$proyecto</p>
             <p>Matricula:$matricula</p>
