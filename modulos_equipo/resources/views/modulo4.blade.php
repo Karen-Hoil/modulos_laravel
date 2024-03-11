@@ -19,90 +19,108 @@
         <h1 class="px-10 py-3 text-3xl font-bold">Control de alumnos asesorados</h1>
       </div>
       <div class="mt-10 justify-center">
-        <div class="flex flex-wrap justify-center mb-4 pb-4">
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-              <div class="mx-5">
-                <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
+        <div class="flex flex-wrap justify-center mb-8">
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
               </div>
-          </div>
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
             </div>
           </div>
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-wrap justify-center mb-4 pb-4">
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
-            </div>
-          </div>
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
-            </div>
-          </div>
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap justify-center mb-4 pb-4">
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
+        <div class="flex flex-wrap justify-center mb-8">
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
             </div>
           </div>
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
             </div>
           </div>
-          <div class="flex border rounded-lg shadow-lg py-8 pl-1 pr-16 my-2 mx-5">
-            <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative mx-4 mt-4 h-20 rounded-xl shadow-lg" />
-            <div class="mx-5">
-              <h6 class="text-xl text-blue-600">Estudiante #</h6>
-                <p class="pl-2">Proyecto:$proyecto</p>
-                <p class="pl-2">Matricula:$matricula</p>
-                <p class="pl-2">Correo:$correo</p>
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center mb-8">
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border rounded-lg shadow-lg px-7 mx-5 bg-white">
+            <h6 class="text-xl text-center text-blue-600 m-3">Estudiante #</h6>
+            <div class="flex">
+              <img src="{{ asset('img/usuario.webp') }}" alt="profile-picture" class="relative m-4 h-20 rounded-xl shadow-lg" />
+              <div class="m-5 mr-10 mb-10">
+                <p class="">Proyecto:$proyecto</p>
+                <p class="">Matricula:$matricula</p>
+                <p class="">Correo:$correo</p>
+              </div>
             </div>
           </div>
         </div>
