@@ -1,61 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo6</title>
-    <!-- Agrega la CDN de Tailwind CSS -->
+    @extends ('plantilla2')
+    @section ('titulo2')
+    Modulo 6
+    @endSection
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-    <!-- HeaderPresi component -->
-    <header>
-        <!-- Inserta el contenido del componente HeaderPresi aquí -->
-    </header>
+
+    @section ('contenido2')
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard Presidente</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    </head>
     
-    <div class="text-zinc-400 border-b border-zinc-400 px-5 py-3 text-xl mx-5">
-        Bienvenido (Presidente)!
-    </div>
     
-    <div class="ag-format-container">
-        <div class="flex flex-wrap justify-between items-start px-0 md:px-4 py-8">
-            <div class="w-full md:w-1/2 mb-6 md:mb-0">
-                <a href="#" class="block p-4 rounded-xl ag-courses-item shadow hover:bg-blue-300 hover:text-black transition duration-300 relative mr-30 ml-20">
-                    <div class="h-32 mb-4 flex items-center justify-center">
-                        <img src="../img/proyectos.png" alt="Proyectos" class="h-full">
+    <body style="background-color: #EEF1F9">
+    
+        <div>
+            <div class="container mx-auto mt-20">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+                    <a href="/controlProyectoPresidente" class="border-l-4 border-blue-500 bg-white p-10 rounded-2xl shadow-md flex flex-col justify-between mx-4 mb-4 transition-transform duration-300 transform hover:scale-105 hover:shadow-md hover:bg-gray-50">
+                        <div class="flex flex-col items-center justify-center mb-4">
+                            <h3 class="text-blue-800 text-2xl font-semibold mb-4">Proyectos</h3>
+                            <img src="img/proyecto.png" alt="Imagen de Proyecto" class=" h-20 object-cover mb-4">
+                            <p class="text-gray-600 text-center">Proyectos en el área de ingeniería</p>
+                        </div>
+                    </a>
+    
+                    <div class="border-l-4 border-green-500 bg-white p-10 rounded-2xl shadow-md flex flex-col justify-between mx-4 mb-4 transition-transform duration-300 transform hover:scale-105 hover:shadow-md hover:bg-gray-50">
+                        <div class="flex flex-col items-center justify-center mb-4">
+                            <h3 class="text-blue-800 text-2xl font-semibold mb-4">Asesores</h3>
+                            <img src="img/asesor.png" alt="Imagen de Proyecto" class=" h-20 object-cover mb-4">
+                            <p class="text-gray-600 text-center">Asesores del área de ingeniería</p>
+                        </div>
                     </div>
-                    <div class="text-xl font-bold">Proyectos</div>
-                    <div>Proyectos del área de ingeniería</div>
-                </a>
-            </div>
-            <div class="w-full md:w-1/2 mb-6 md:mb-0">
-                <a href="#" class="block p-4 rounded-xl ag-courses-item shadow hover:bg-blue-300 hover:text-black transition duration-300 relative ml-10">
-                    <div class="h-32 mb-4 flex items-center justify-center">
-                        <img src="../img/asesores.png" alt="Documentos" class="h-full">
-                    </div>
-                    <div class="text-xl font-bold">Asesores</div>
-                    <div>Asesores del área de ingeniería</div>
-                </a>
-            </div>
-            <div class="w-full md:w-1/2 mb-6 md:mb-0">
-                <a href="#" class="block p-4 rounded-xl ag-courses-item shadow hover:bg-blue-300 hover:text-black transition duration-300 relative mr-30 ml-10">
-                    <div class="h-32 mb-4 flex items-center justify-center">
-                        <img src="../img/estudiantes.png" alt="Asesores" class="h-full">
-                    </div>
-                    <div class="text-xl font-bold">Estudiantes</div>
-                    <div>Estudiantes del área de ingeniería</div>
-                </a>
-            </div>
-            <div class="w-full md:w-1/2 mb-6 md:mb-0">
-                <a href="#" class="block p-4 rounded-xl ag-courses-item shadow hover:bg-blue-300 hover:text-black transition duration-300 relative ml-10">
-                    <div class="h-32 mb-4 flex items-center justify-center">
-                        <img src="../img/documentos.png" alt="Estudiantes" class="h-full">
-                    </div>
-                    <div class="text-xl font-bold">Documentos</div>
-                    <div>Documentos de estudiantes y asesores</div>
-                </a>
+    
+                    <a href="/asesoresyestudiantes" class="border-l-4 border-red-500 bg-white p-10 rounded-2xl shadow-md flex flex-col justify-between mx-4 mb-4 transition-transform duration-300 transform hover:scale-105 hover:shadow-md hover:bg-gray-50">
+                        <div class="flex flex-col items-center justify-center mb-4">
+                            <h3 class="text-blue-800 text-2xl font-semibold mb-4">Asignación de Asesores</h3>
+                            <img src="img/alumno.png" alt="Imagen de Proyecto" class=" h-20 object-cover mb-4">
+                            <p class="text-gray-600 text-center">Información sobre los asesores y sus alumnos</p>
+                        </div>
+                    </a>
+    
+                    <a href="/Admindocs" class="border-l-4 border-red-500 bg-white p-10 rounded-2xl shadow-md flex flex-col justify-between mx-4 mb-4 transition-transform duration-300 transform hover:scale-105 hover:shadow-md hover:bg-gray-50">
+                        <div class="flex flex-col items-center justify-center mb-4">
+                            <h3 class="text-blue-800 text-2xl font-semibold mb-4">Documentos</h3>
+                            <img src="img/documento.png" alt="Imagen de Proyecto" class=" h-20 object-cover mb-4">
+                            <p class="text-gray-600 text-center">Documentos de los alumnos</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</body>
-</html>
+    
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Contenido del pie de página -->
+        </footer>
+        <!-- Fin del Footer -->
+    
+    </body>
+    </html> 
+    @endSection
+

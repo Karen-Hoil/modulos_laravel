@@ -1,6 +1,11 @@
+@extends ('plantilla2')
+    @section ('titulo2')
+    Modulo 7
+    @endSection
+    @section ('contenido2')
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -265,7 +270,6 @@
 
                     <div class="justification-form">
                         <h2>Escribir justificación</h2>
-                        <input type="text" id="name" placeholder="Nombre asesor" readonly class="input-field block w-full p-2 rounded-lg bg-gray-100"/>
                         <textarea id="justification-text" placeholder="Escribe tu justificación aquí..." rows="4"></textarea>
                         <div class="btn-wrapper">
                             <button class="submit-justification">Enviar</button>
@@ -341,3 +345,4 @@
 </body>
 
 </html>
+@endSection

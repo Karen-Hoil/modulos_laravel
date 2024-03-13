@@ -31,7 +31,7 @@
                                 <button class="form-icon-button" onclick="document.execCommand('underline', false, null)">A</button>
                                 <button class="form-icon-button">Clip</button>
                                 <button style="background-color: #325B87; color: white" class="form-button rounded px-4 py-2">Guardar como borrador</button>
-                                <button class="form-icon-button">🗑️</button>
+                                <button class="form-icon-button"><img src="../img/basura.png" alt="" style="width: 35px;" class="m-2"></button>
                             </div>
                             <button type="submit" style="background-color: #325B87; color: white" class="submit-button text-white px-4 py-2 rounded ml-auto">Enviar</button>
                         </div>
